@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8ff9f870b30b3647268da648d590d370 {
+                #map_267fd68ff4e8ecf8641259cd88641ae8 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_8ff9f870b30b3647268da648d590d370" ></div>
+            <div class="folium-map" id="map_267fd68ff4e8ecf8641259cd88641ae8" ></div>
         
 </body>
 <script>
     
     
-            var map_8ff9f870b30b3647268da648d590d370 = L.map(
-                "map_8ff9f870b30b3647268da648d590d370",
+            var map_267fd68ff4e8ecf8641259cd88641ae8 = L.map(
+                "map_267fd68ff4e8ecf8641259cd88641ae8",
                 {
                     center: [35.833, 139.955],
                     crs: L.CRS.EPSG3857,
@@ -60,36 +60,147 @@
 
         
     
-            var tile_layer_127f06fe3bcc1bcb63cbe49a5187e889 = L.tileLayer(
+            var tile_layer_767a412c0cb6a00acb2460dead2749b6 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_8ff9f870b30b3647268da648d590d370);
+            ).addTo(map_267fd68ff4e8ecf8641259cd88641ae8);
         
     
-            var marker_ef3f733e3b7d5e7d903016eced0265a9 = L.marker(
+            var marker_ce7dd68e5b3cd62cb6ee61808ba05f62 = L.marker(
                 [35.833, 139.955],
                 {}
-            ).addTo(map_8ff9f870b30b3647268da648d590d370);
+            ).addTo(map_267fd68ff4e8ecf8641259cd88641ae8);
         
     
-        var popup_390adb040b13905e422154683d1bca2a = L.popup({"maxWidth": "100%"});
+            var icon_c5353f38941d31a797e6cd8d9e72dd7d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce7dd68e5b3cd62cb6ee61808ba05f62.setIcon(icon_c5353f38941d31a797e6cd8d9e72dd7d);
+        
+    
+        var popup_b84e3f9a3dbed3f98983bd7f91958136 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_768b263db949cfb8cbeb9ab0d7bc1bfb = $(`<div id="html_768b263db949cfb8cbeb9ab0d7bc1bfb" style="width: 100.0%; height: 100.0%;">Reitaku University, the best place on earth</div>`)[0];
-                popup_390adb040b13905e422154683d1bca2a.setContent(html_768b263db949cfb8cbeb9ab0d7bc1bfb);
+                var html_44b6668d8c1985bc361b6090f3fcd5ff = $(`<div id="html_44b6668d8c1985bc361b6090f3fcd5ff" style="width: 100.0%; height: 100.0%;">reitaku is good</div>`)[0];
+                popup_b84e3f9a3dbed3f98983bd7f91958136.setContent(html_44b6668d8c1985bc361b6090f3fcd5ff);
             
         
 
-        marker_ef3f733e3b7d5e7d903016eced0265a9.bindPopup(popup_390adb040b13905e422154683d1bca2a)
+        marker_ce7dd68e5b3cd62cb6ee61808ba05f62.bindPopup(popup_b84e3f9a3dbed3f98983bd7f91958136)
         ;
 
         
     
     
-            marker_ef3f733e3b7d5e7d903016eced0265a9.bindTooltip(
+            marker_ce7dd68e5b3cd62cb6ee61808ba05f62.bindTooltip(
                 `<div>
-                     Reitaku University
+                     reitaku
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_441e145370dc94725e232e9d6beb368d = L.marker(
+                [35.844469563719954, 139.95241384284952],
+                {}
+            ).addTo(map_267fd68ff4e8ecf8641259cd88641ae8);
+        
+    
+            var icon_a53fc786a39b7e02f04deca1c97e85a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_441e145370dc94725e232e9d6beb368d.setIcon(icon_a53fc786a39b7e02f04deca1c97e85a6);
+        
+    
+        var popup_8b4db3f3a7c7ca5d23083dfe6e91b7f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84249f04383dbc8eb4882debe4abdcfa = $(`<div id="html_84249f04383dbc8eb4882debe4abdcfa" style="width: 100.0%; height: 100.0%;">home is calm</div>`)[0];
+                popup_8b4db3f3a7c7ca5d23083dfe6e91b7f2.setContent(html_84249f04383dbc8eb4882debe4abdcfa);
+            
+        
+
+        marker_441e145370dc94725e232e9d6beb368d.bindPopup(popup_8b4db3f3a7c7ca5d23083dfe6e91b7f2)
+        ;
+
+        
+    
+    
+            marker_441e145370dc94725e232e9d6beb368d.bindTooltip(
+                `<div>
+                     home
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cf0b1cc6b6985282936988100bfbd8b2 = L.marker(
+                [35.83052380531484, 139.9583811220544],
+                {}
+            ).addTo(map_267fd68ff4e8ecf8641259cd88641ae8);
+        
+    
+            var icon_76204e35a2e283b15069c479f6c03d60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_cf0b1cc6b6985282936988100bfbd8b2.setIcon(icon_76204e35a2e283b15069c479f6c03d60);
+        
+    
+        var popup_c77fe490da3f129ef878a8324c78ee35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3135bef85b9b4233800a371e97660b54 = $(`<div id="html_3135bef85b9b4233800a371e97660b54" style="width: 100.0%; height: 100.0%;">This hospital is the closest to the school</div>`)[0];
+                popup_c77fe490da3f129ef878a8324c78ee35.setContent(html_3135bef85b9b4233800a371e97660b54);
+            
+        
+
+        marker_cf0b1cc6b6985282936988100bfbd8b2.bindPopup(popup_c77fe490da3f129ef878a8324c78ee35)
+        ;
+
+        
+    
+    
+            marker_cf0b1cc6b6985282936988100bfbd8b2.bindTooltip(
+                `<div>
+                     seihikarigaoka byoin
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9eab55f6b0c55b5e112a0e664d78e15e = L.marker(
+                [35.846061583572556, 139.95343259028616],
+                {}
+            ).addTo(map_267fd68ff4e8ecf8641259cd88641ae8);
+        
+    
+            var icon_230db0899ef5301846c7205cf7cfea53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9eab55f6b0c55b5e112a0e664d78e15e.setIcon(icon_230db0899ef5301846c7205cf7cfea53);
+        
+    
+        var popup_0003c703be1dbdb1fc66b1f3070d9e9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6283ca049244b4b546477dabe9d81360 = $(`<div id="html_6283ca049244b4b546477dabe9d81360" style="width: 100.0%; height: 100.0%;">This clinic is the best closest to the home</div>`)[0];
+                popup_0003c703be1dbdb1fc66b1f3070d9e9b.setContent(html_6283ca049244b4b546477dabe9d81360);
+            
+        
+
+        marker_9eab55f6b0c55b5e112a0e664d78e15e.bindPopup(popup_0003c703be1dbdb1fc66b1f3070d9e9b)
+        ;
+
+        
+    
+    
+            marker_9eab55f6b0c55b5e112a0e664d78e15e.bindTooltip(
+                `<div>
+                     minamikashiwaekimae clinic
                  </div>`,
                 {"sticky": true}
             );
